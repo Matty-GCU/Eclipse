@@ -1,0 +1,28 @@
+package blueBridgeCup;
+import java.util.Scanner;
+import static java.lang.System.*;
+
+public class FirstTry {
+	//19年蓝桥杯一道原题：给定数列 1, 1, 1, 3, 5, 9, 17, …，从第 4 项开始，每项都是前 3 项的和。求 第 20190324 项的最后 4 位数字。
+	public static void main(String[] args) {
+		out.println("请输入: 求第几项的最后4位数字?");
+		Scanner reader = new Scanner(in);
+		int x = reader.nextInt();
+		int n = x-1;
+		int[] a = new int[x];
+		a[0] = 1;
+		a[1] = 1;
+		a[2] = 1;
+		for(int i=3; i<=n; i++) {
+			a[i] = a[i-1] + a[i-2] + a[i-3];
+		}
+		if(a[n]>=1000) {
+			out.println("第"+n+"项的值是"+a[n]);
+			out.println("第"+n+"项的最后 4 位数字是"+a[n]%10000);
+		}
+		else {
+			out.println("第"+n+"项的值是"+a[n]);
+		}
+		reader.close();
+	}
+}

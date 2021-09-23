@@ -1,0 +1,21 @@
+package project002;
+
+import java.util.ArrayList;
+import java.util.List;
+
+//MVC: MODEL
+public class Butler extends User {
+	List<Assignment> assignmentsReleased = new ArrayList<Assignment>();
+	public Butler(String name, String phoneNumber, String password) {
+		super(name, phoneNumber, password);
+	}
+	public List<Assignment> getAssignmentsReleased() {
+		return assignmentsReleased;
+	}
+	public void setAssignmentsReleased(List<Assignment> assignmentsReleased) {
+		this.assignmentsReleased = assignmentsReleased;
+	}
+	public void assign(Worker worker, Assignment assignment) {
+		worker.addAssignment(assignment);
+	}
+}

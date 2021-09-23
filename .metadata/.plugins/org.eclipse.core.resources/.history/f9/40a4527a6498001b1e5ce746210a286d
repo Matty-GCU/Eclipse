@@ -1,0 +1,12 @@
+package project002;
+
+public class Worker extends User {
+	int grade;
+	Assignment assignmentTaken;
+	public void checkoutAssignmentTaken() {
+		
+	}
+	public void showaAssignmentProgress() {
+		
+	}
+}

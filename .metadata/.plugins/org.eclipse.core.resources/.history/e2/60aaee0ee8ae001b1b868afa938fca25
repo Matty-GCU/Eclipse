@@ -1,0 +1,16 @@
+package part03;
+
+public class Problem {
+
+	public static void main(String[] args) {
+		
+		byte b1 = -48;
+		byte[] b2 = {-60, -22};
+		char c = (char)b1;
+		System.out.println(c);
+		String s = new String(b2);
+		System.out.println(s);
+		
+	}
+
+}

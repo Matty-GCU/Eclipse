@@ -1,0 +1,49 @@
+package project002;
+
+//MVC: MODEL
+public class Worker extends User {
+	Assignment assignmentTaken;		//接手的任务
+	int grade;						//工人评分
+	String progress;				//任务进度
+	//任务进度常量
+	final String PREPARING = "准备中";
+	final String COMING = "赶来中";
+	final String ARRIVED = "已到达";
+	final String STARTED = "已开始";
+	final String ACCOMPLISHED = "已完成";
+	public Worker() {}
+	public Worker(String name, String phoneNumber, String password, Assignment assignmentTaken) {
+		super(name, phoneNumber, password);
+		setAssignmentTaken(assignmentTaken);
+	}
+	public void checkAssignment() {
+		System.out.println("查看接手任务详情：");
+		getAssignmentTaken().checkInfo();
+	}
+	public void checkoutAssignmentTaken() {
+		
+	}
+	public void showaAssignmentProgress() {
+		
+	}
+	//Getters&Setters
+	public int getGrade() {
+		return grade;
+	}
+	public void setGrade(int grade) {
+		this.grade = grade;
+	}
+	public Assignment getAssignmentTaken() {
+		return assignmentTaken;
+	}
+	public void setAssignmentTaken(Assignment assignmentTaken) {
+		this.assignmentTaken = assignmentTaken;
+	}
+	public String getProgress() {
+		return progress;
+	}
+	public void setProgress(String progress) {
+		this.progress = progress;
+	}
+	
+}

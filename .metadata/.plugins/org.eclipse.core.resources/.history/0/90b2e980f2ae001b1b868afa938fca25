@@ -1,0 +1,17 @@
+package part03;
+
+public class Problem {
+
+	public static void main(String[] args) {
+		//中文转
+		String ori = "新年";
+		byte b1 = -48;
+		byte[] b2 = {-48, -60};
+		char c = (char)b1;
+		System.out.println(c);
+		String s = new String(b2);
+		System.out.println(s);
+		
+	}
+
+}

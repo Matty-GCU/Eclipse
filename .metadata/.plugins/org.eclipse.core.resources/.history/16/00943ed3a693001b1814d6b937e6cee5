@@ -1,0 +1,28 @@
+package part11;
+
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.event.FocusEvent;
+import java.awt.event.FocusListener;
+
+import javax.swing.JButton;
+
+public class Person  extends JButton implements FocusListener{
+	int number;
+	Color color = new Color(255, 245, 170);
+	Font font = new Font("ËÎÌו", Font.BOLD, 12);
+	Person(int num, String str) {
+		super(str);
+		setBackground(color);
+		setFont(font);
+		this.number = num;
+		color = getBackground();	//
+		addFocusListener(this);
+	}
+	public void focusGained(FocusEvent e) {
+		setBackground(Color.RED);
+	}
+	public void focusLost(FocusEvent e) {
+		setBackground(color);
+	}
+}

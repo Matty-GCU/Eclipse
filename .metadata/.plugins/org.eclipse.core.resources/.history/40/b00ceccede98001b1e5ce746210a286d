@@ -1,0 +1,9 @@
+package project002;
+
+//MVC: MODEL
+public class Butler extends User {
+	public Butler(String name, String phoneNumber, String password) {
+		super(name, phoneNumber, password);
+	}
+	
+}

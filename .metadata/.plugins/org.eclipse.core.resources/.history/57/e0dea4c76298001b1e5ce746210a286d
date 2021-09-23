@@ -1,0 +1,10 @@
+package project002;
+
+//MVC: MODEL
+public abstract class User {
+	String userName;
+	String userPhoneNumber;
+	private String userPassword;
+	public abstract void checkoutPersonalInfo();
+	public abstract String changePassword(String newPassword);
+}

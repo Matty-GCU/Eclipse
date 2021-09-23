@@ -1,0 +1,16 @@
+package project002;
+
+//MVC: MODEL
+public abstract class Assignment {
+	String message;		//任务名称
+	String time;		//时间信息
+	String place;		//地点信息
+	String note;		//任务备注
+	String worker;		//执行者
+	//任务进度
+	final int PREPARING = 1;		//"准备中";
+	final int COMING = 2;			//"赶来中";
+	final int ARRIVED = 3;			//"已到达";
+	final int STARTED = 4;			//"已开始";
+	final int ACCOMPLISHED = 5;		//"已完成";
+}

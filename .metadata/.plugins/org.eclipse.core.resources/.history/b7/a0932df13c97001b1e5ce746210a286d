@@ -1,0 +1,14 @@
+package project002;
+
+//MVC: MODEL
+public abstract class Assignment {
+	String message;
+	String time;
+	String place;
+	String note;
+	final String preparing = "准备中";
+	final String coming = "赶来中";
+	final String arrived = "已到达";
+	final String started = "已开始";
+	final String accomplished = "已完成";
+}

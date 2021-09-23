@@ -1,0 +1,24 @@
+package question;
+import java.util.Scanner;
+
+public class Q {
+	public static void main(String args[]) {
+		Scanner reader = new Scanner(System.in);
+		char secret = '!';		//可任意修改加密参数
+		int end = 1;
+		while(end != 0) {
+			System.out.println("***在下面输入想要加密的四个字符:***");
+			char a1 = reader.next().charAt(0);
+			char a2 = reader.next().charAt(1);
+			char a3 = reader.next().charAt(2);
+			char a4 = reader.next().charAt(3);
+			a1 = (char)(a1^secret);
+			a2 = (char)(a2^secret);
+			a3 = (char)(a3^secret);
+			a4 = (char)(a4^secret);
+			System.out.println("密文:"+a1+a2+a3+a4+"   ***在下面输入任意数字继续程序，输入0结束程序***");
+			end = reader.nextInt();
+		}
+		reader.close();
+	}
+}

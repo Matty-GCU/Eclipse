@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8"/>
+	<classpathentry kind="src" path="chapter2"/>
+	<classpathentry kind="src" path="chapter3"/>
+	<classpathentry kind="src" path="chapter4"/>
+	<classpathentry kind="src" path="goods"/>
+	<classpathentry kind="src" path="others"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,24 @@
+package cn.edu.gcu;
+
+public class Goods {
+	private String name; 
+	private int price;
+	private int quantity;
+	public void setTwoInfo(String a, int b) {
+		name = a;
+		price = b;
+		quantity = 0;
+	}
+	public void setThreeInfo(String a, int b, int c) {
+		name = a;
+		price = b;
+		quantity = c;
+	}
+	public void buy(int a) {
+		quantity += a;
+	}
+	public void sale(int a) {
+		quantity -= a;
+	}
+	System.out.println("ÉÌÆ·Ãû³Æ£º" + a);
+}

@@ -1,0 +1,18 @@
+package project002;
+
+//MVC: MODEL
+public class Butler extends User {
+	Assignment assignmentsReleased;
+	public Butler(String name, String phoneNumber, String password) {
+		super(name, phoneNumber, password);
+	}
+	public Assignment getAssignmentsReleased() {
+		return assignmentsReleased;
+	}
+	public void setAssignmentsReleased(Assignment assignmentsReleased) {
+		this.assignmentsReleased = assignmentsReleased;
+	}
+	public void assign(Worker worker, Assignment assignment) {
+		worker.addAssignment(assignment);
+	}
+}

@@ -1,0 +1,6 @@
+package project002;
+
+//MVC: MODEL
+public abstract class Assignment {
+	String message, time, place;
+}

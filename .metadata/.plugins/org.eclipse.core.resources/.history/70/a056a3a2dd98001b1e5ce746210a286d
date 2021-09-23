@@ -1,0 +1,16 @@
+package project002;
+
+public class Test {
+	//项目001可以传github了
+	//传GITHUB
+	public static void main(String[] args) {
+		Client wu = new Client("Mr. Wu", "13417143272", "123");
+		wu.checkInfo();
+		wu.changePassword("122");
+		Assignment cleaning = wu.releaseAssignment("大扫除", "年前三天内完成", "整栋别墅");
+		wu.addAssignmentNote(cleaning, "厨房和卫生间需要重点打扫");
+		Cleaner li = new Cleaner("Uncle Li", "11122223333", "234", cleaning);
+		li.checkInfo();
+		li.checkoutAssignmentTaken();
+	}
+}

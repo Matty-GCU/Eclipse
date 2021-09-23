@@ -1,0 +1,37 @@
+package algorithm;
+import static java.lang.System.out;
+import java.util.Arrays;
+import java.util.Random;
+
+public class BubbleSortVersion3 {
+	public static void main(String[] args) {
+		//Initialize array
+		Random r = new Random();
+		int[] a = new int[10];
+		for(int i = 0; i < a.length; i++) {
+			int x = r.nextInt(30)+1;
+			a[i] = x;
+		}
+		out.println(Arrays.toString(a));
+		//Version3
+		boolean isSorted = true;
+		int lastExchangeIndex = 0;
+		for(int i = 0; i < a.length; i++) {
+			for(int j = 0; j < lastExchangeIndex; j++) {
+				if(a[j] > a[j+1]) {
+					int tmp = a[j];
+					a[j] = a[j+1];
+					a[j+1] = tmp;
+					isSorted = false;
+					lastExchangeIndex = j;
+				}
+			}
+			if(isSorted) {
+				break;
+			}
+		}
+		out.println(">>>");
+		out.println(Arrays.toString(a));
+	}
+
+}

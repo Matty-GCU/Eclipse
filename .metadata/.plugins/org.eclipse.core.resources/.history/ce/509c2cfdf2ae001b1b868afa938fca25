@@ -1,0 +1,25 @@
+package part03;
+
+import java.io.UnsupportedEncodingException;
+
+public class Problem {
+
+	public static void main(String[] args) {
+		//中文转
+		String ori = "新年";
+		try {
+			byte[] g = ori.getBytes("vds");
+		} catch (UnsupportedEncodingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		byte b1 = -48;
+		byte[] b2 = {-48, -62};
+		char c = (char)b1;
+		System.out.println(c);
+		String s = new String(b2);
+		System.out.println(s);
+		
+	}
+
+}

@@ -1,0 +1,35 @@
+package project002;
+
+//MVC: MODEL
+public class Client extends User {
+	Butler butler;
+	public Client(String name, String phoneNumber, String password) {
+		super(name, phoneNumber, password);
+	}
+	public Assignment releaseAssignment(String message, String time, String place) {
+		return new Assignment(message, time, place);
+	}
+	public Assignment releaseAssignment(String message, String time, String place, String note) {
+		return new Assignment(message, time, place, note);
+	}
+	public void addAssignmentTime(Assignment assignment, String time) {
+		assignment.setNote(time);
+	}
+	public void addAssignmentNote(Assignment assignment, String note) {
+		assignment.setNote(note);
+	}
+	public void checkAssignmentProgress() {
+		
+	}
+	public void evaluate() {
+		
+	}
+	
+	//Getters&Setters
+	public Butler getButler() {
+		return butler;
+	}
+	public void setButler(Butler butler) {
+		this.butler = butler;
+	}
+}

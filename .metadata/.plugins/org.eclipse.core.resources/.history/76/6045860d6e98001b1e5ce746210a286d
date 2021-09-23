@@ -1,0 +1,10 @@
+package project002;
+
+public class Test {
+	//项目001可以传github了
+	//传GITHUB
+	public static void main(String[] args) {
+		Client Wu = new Client("Mr. Wu", "13417143272", "123");
+		Wu.checkoutPersonalInfo();
+	}
+}

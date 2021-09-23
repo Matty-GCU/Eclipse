@@ -1,0 +1,18 @@
+package project002;
+
+//MVC: MODEL
+public class Worker extends User {
+	int grade;
+	Assignment assignmentTaken;
+	public Worker() {}
+	public Worker(String name, String phoneNumber, String password, Assignment assignmentTaken) {
+		super(name, phoneNumber, password);
+		this.assignmentTaken = assignmentTaken;
+	}
+	public void checkoutAssignmentTaken() {
+		
+	}
+	public void showaAssignmentProgress() {
+		
+	}
+}

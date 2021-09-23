@@ -1,0 +1,23 @@
+package part03;
+
+import java.io.UnsupportedEncodingException;
+import java.util.Arrays;
+
+public class Problem {
+
+	public static void main(String[] args) throws UnsupportedEncodingException {
+		
+		byte[] b2 = {-48, -62};
+		String result2 = new String(b2);
+		System.out.println(result2);
+		
+		String ori = "新年cnK的超大哦";
+		byte[] b3 = ori.getBytes();
+		System.out.println(Arrays.toString(b3));
+		System.out.println(new String(b3));
+		b3 = ori.getBytes("utf-8");
+		System.out.println(Arrays.toString(b3));
+		System.out.println(new String(b3, "utf-8"));
+	}
+
+}

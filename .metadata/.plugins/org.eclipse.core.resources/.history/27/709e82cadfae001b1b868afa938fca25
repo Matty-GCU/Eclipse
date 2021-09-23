@@ -1,0 +1,10 @@
+package part03;
+
+public class Example10_5 {
+
+	public static void main(String[] args) {
+		byte[] a = "ĞÂÄê¿ìÀÖ".getBytes();
+		System.out.println(a);
+	}
+
+}

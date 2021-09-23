@@ -1,0 +1,5 @@
+package cn.edu.gcu;
+
+public class Goods {
+	private name, quantity, price;
+}

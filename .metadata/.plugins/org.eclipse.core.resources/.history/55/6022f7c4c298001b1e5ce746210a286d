@@ -1,0 +1,50 @@
+package project002;
+
+//MVC: MODEL
+public class Assignment {
+	String message;		//任务名称
+	String time;		//时间信息
+	String place;		//地点信息
+	String note;		//任务备注
+	Worker worker;		//执行者
+	public void checkInfo() {
+		System.out.println("查看任务详情：");
+		System.out.println("任务名称：" + getMessage());
+		System.out.println("时间信息：" + getTime());
+		System.out.println("地点信息" + getPlace());
+		System.out.println("任务备注：" + getNote());
+		System.out.println("执行者" + worker.getName());
+	}
+	//Getters&Setters
+	public String getMessage() {
+		return message;
+	}
+	public void setMessage(String message) {
+		this.message = message;
+	}
+	public String getTime() {
+		return time;
+	}
+	public void setTime(String time) {
+		this.time = time;
+	}
+	public String getPlace() {
+		return place;
+	}
+	public void setPlace(String place) {
+		this.place = place;
+	}
+	public String getNote() {
+		return note;
+	}
+	public void setNote(String note) {
+		this.note = note;
+	}
+	public Worker getWorker() {
+		return worker;
+	}
+	public void setWorker(Worker worker) {
+		this.worker = worker;
+	}
+	
+}

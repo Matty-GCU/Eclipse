@@ -1,0 +1,12 @@
+package part03;
+
+import java.util.Arrays;
+
+public class Example10_5 {
+
+	public static void main(String[] args) {
+		byte[] a = "ĞÂÄê¿ìÀÖ".getBytes();
+		System.out.println(Arrays.toString(a));
+	}
+
+}
