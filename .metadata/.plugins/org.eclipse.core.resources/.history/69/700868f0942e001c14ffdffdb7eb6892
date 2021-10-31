@@ -1,0 +1,11 @@
+package project002;
+import java.net.*;
+import java.io.*;
+public class text1 {
+
+	public static void main(String[] args) throws Exception{
+		Socket s=new Socket("172.24.155.157",4895);
+		BufferedWriter bw=new BufferedWriter(new OutputStreamWriter(s.getOutputStream()))
+	}
+
+}
