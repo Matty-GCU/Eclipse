@@ -1,0 +1,29 @@
+package test;
+
+import java.util.Scanner;
+import java.util.LinkedList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		int ans = 1;
+		LinkedList<Integer> stack = new LinkedList<>();
+		for(int i = 0; i < n; i++) {
+			int x = sc.nextInt();
+			if(! stack.isEmpty() && stack.peek() != x - 1) {
+				ans = Math.max(stack.size(), ans);
+				stack.clear();
+			}
+			stack.push(x);
+			//System.out.println(x + "  " + stack.size());
+		}
+		ans = Math.max(stack.size(), ans);
+		System.out.println(ans);
+		sc.close();
+		//10
+		//1 5 6 2 3 4 5 6 8 9
+	}
+
+}
