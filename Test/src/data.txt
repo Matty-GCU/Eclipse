@@ -1,0 +1,36 @@
+2022-02-08 02:51:46
+{price=22.3, name=ÂéÀ±Ïã¹ø, id=2, mess=Ê³ÌÃ3, window=3, message=ÏãÀ±}
+2022-02-08 03:14:40
+{price=33.1, name=·¬ÇÑ·ÊÅ£, id=17, mess=Ê³ÌÃ3, window=8, message=ÕôÖó}
+2022-03-02 02:26:47
+{price=33.1, name=·¬ÇÑ·ÊÅ£, id=2, mess=Ê³ÌÃ4, window=2, message=ÕôÖó}
+2022-03-02 02:27:02
+Ëæ»úÏŞ¶¨´Ê:ÏãÀ±{price=22.3, name=ÂéÀ±Ïã¹ø, id=1, mess=Ê³ÌÃ3, window=3, message=ÏãÀ±}
+2022-03-02 02:27:41
+Ëæ»úÏŞ¶¨´Ê:ÏãÀ±{price=22.3, name=ÂéÀ±Ïã¹ø, id=1, mess=Ê³ÌÃ3, window=3, message=ÏãÀ±}
+2022-03-02 02:27:43
+Ëæ»úÏŞ¶¨´Ê:ÏãÀ±{price=22.3, name=ÂéÀ±Ïã¹ø, id=1, mess=Ê³ÌÃ3, window=3, message=ÏãÀ±}
+2022-03-02 02:27:45
+Ëæ»úÏŞ¶¨´Ê:ÏãÀ±{price=25.3, name=ÂéÀ±ÌÌ, id=3, mess=Ê³ÌÃ2, window=4, message=ÏãÀ±}
+2022-03-02 02:51:15
+{price=22.3, name=ÂéÀ±Ïã¹ø, id=1, mess=Ê³ÌÃ3, window=3, message=ÏãÀ±}
+2022-03-02 02:51:48
+{price=33.1, name=·¬ÇÑ·ÊÅ£, id=2, mess=Ê³ÌÃ4, window=2, message=ÕôÖó}
+2022-03-02 02:51:52
+Ëæ»úÏŞ¶¨´Ê:ÏãÀ±{price=25.3, name=ÂéÀ±ÌÌ, id=3, mess=Ê³ÌÃ2, window=4, message=ÏãÀ±}
+2022-03-02 02:55:04
+{price=25.3, name=ÂéÀ±ÌÌ, id=3, mess=Ê³ÌÃ2, window=4, message=ÏãÀ±}
+2022-03-02 02:57:52
+{price=25.3, name=ÂéÀ±ÌÌ, id=3, mess=Ê³ÌÃ2, window=4, message=ÏãÀ±}
+2022-03-02 02:58:28
+{price=33.1, name=·¬ÇÑ·ÊÅ£, id=2, mess=Ê³ÌÃ4, window=2, message=ÕôÖó}
+2022-03-02 03:00:13
+{price=33.1, name=·¬ÇÑ·ÊÅ£, id=2, mess=Ê³ÌÃ4, window=2, message=ÕôÖó}
+2022-03-02 03:00:31
+{price=25.3, name=ÂéÀ±ÌÌ, id=3, mess=Ê³ÌÃ2, window=4, message=ÏãÀ±}
+2022-03-02 03:01:26
+{price=33.1, name=·¬ÇÑ·ÊÅ£, id=2, mess=Ê³ÌÃ4, window=2, message=ÕôÖó}
+2022-03-02 03:01:28
+{price=22.3, name=ÂéÀ±Ïã¹ø, id=1, mess=Ê³ÌÃ3, window=3, message=ÏãÀ±}
+2022-03-03 01:40:27
+{price=33.1, name=·¬ÇÑ·ÊÅ£, id=2, mess=Ê³ÌÃ4, window=2, message=ÕôÖó}
